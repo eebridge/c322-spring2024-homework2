@@ -64,10 +64,7 @@
 				<configuration>
 					<includes>
 						<include>
-							part2.ProblemsTest
-						</include>
-						<include>
-							part3.InventoryTest
+							com.example.demo.repository.InventoryRepositoryTest
 						</include>
 					</includes>
 					<excludes>

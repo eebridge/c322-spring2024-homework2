@@ -4,3 +4,5 @@
 32145,1234.0,builder1,model1,type1,backWood1,topWood1
 null,4321.0,null,null,null,null,null
 null,4321.0,null,null,null,null,null
+32145,1234.0,builder1,model1,type1,backWood1,topWood1
+null,4321.0,null,null,null,null,null
