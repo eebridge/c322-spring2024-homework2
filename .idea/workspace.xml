@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a878cace-c8bc-4f1e-af0e-6f1f21021f3a" name="Changes" comment="hw 2">
+    <list default="true" id="a878cace-c8bc-4f1e-af0e-6f1f21021f3a" name="Changes" comment="hw 2 pom">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,11 +169,20 @@
       <option name="project" value="LOCAL" />
       <updated>1706584362935</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="hw 2 pom">
+      <option name="closed" value="true" />
+      <created>1706584710840</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706584710840</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hw 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw 2" />
+    <MESSAGE value="hw 2 pom" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw 2 pom" />
   </component>
 </project>
