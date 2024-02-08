@@ -8,7 +8,6 @@ import java.io.IOException;
 import java.util.List;
 
 @RestController
-@RequestMapping("/guitars")
 public class InventoryController {
 
     private InventoryRepository inventoryRepository;
@@ -40,7 +39,7 @@ public class InventoryController {
         }
     }
 
-    @PostMapping
+    @PostMapping("/add")
     public boolean add(@RequestBody Guitar guitar){
         try {
             return inventoryRepository.addGuitar(guitar);
@@ -50,7 +49,7 @@ public class InventoryController {
     }
 
     @GetMapping("/find")
-    public Guitar find(@RequestParam(value = "serialNumber") String serialNumber){
+    public Guitar find(@RequestParam String serialNumber){
         try {
             return inventoryRepository.getGuitar(serialNumber);
         } catch (IOException e) {
