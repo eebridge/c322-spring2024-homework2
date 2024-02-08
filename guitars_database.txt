@@ -1,8 +1,3 @@
-12345,123.99,Fender,model1,type1,Alder,topWood1
-12346,333.99,Fender,model2,type2,Alder,topWood2
-42069,444.55,builder3,model3,type3,backWood3,topWood3
-32145,1234.0,builder1,model1,type1,backWood1,topWood1
-null,4321.0,null,null,null,null,null
-null,4321.0,null,null,null,null,null
-32145,1234.0,builder1,model1,type1,backWood1,topWood1
-null,4321.0,null,null,null,null,null
+32145,1234.0,Gibson,model1,Electric,Maple,Cedar
+null,4321.0,Gibson,null,Acoustic,Maple,Cedar
+12345,123.99,Prs,model1,Acoustic,Alder,Cedar

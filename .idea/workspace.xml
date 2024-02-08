@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a878cace-c8bc-4f1e-af0e-6f1f21021f3a" name="Changes" comment="hw 2 mavenyml">
+    <list default="true" id="a878cace-c8bc-4f1e-af0e-6f1f21021f3a" name="Changes" comment="hw 3 part 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controllers/InventoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controllers/InventoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guitars_database.txt" beforeDir="false" afterPath="$PROJECT_DIR$/guitars_database.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/model/Guitar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/model/Guitar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/repository/InventoryRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/repository/InventoryRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,21 +52,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.InventoryRepositoryTest.addGuitar1.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.InventoryRepositoryTest.addGuitar2.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.InventoryRepositoryTest.getGuitar.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.InventoryRepositoryTest.search.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.demo [test].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ethan/Documents/C322/c322-spring2024-homework2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.InventoryRepositoryTest.addGuitar1.executor": "Run",
+    "JUnit.InventoryRepositoryTest.addGuitar2.executor": "Run",
+    "JUnit.InventoryRepositoryTest.executor": "Run",
+    "JUnit.InventoryRepositoryTest.getGuitar.executor": "Run",
+    "JUnit.InventoryRepositoryTest.search.executor": "Run",
+    "Maven.demo [test].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ethan/Documents/C322/c322-spring2024-homework2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ethan\Documents\C322\c322-spring2024-homework2" />
@@ -78,6 +80,21 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.InventoryRepositoryTest.search">
+    <configuration name="InventoryRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="c322-spring2024-homework2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.repository.InventoryRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InventoryRepositoryTest.addGuitar1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="c322-spring2024-homework2" />
       <extension name="coverage">
@@ -145,9 +162,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.InventoryRepositoryTest.search" />
+        <item itemvalue="JUnit.InventoryRepositoryTest.addGuitar1" />
         <item itemvalue="JUnit.InventoryRepositoryTest.getGuitar" />
         <item itemvalue="JUnit.InventoryRepositoryTest.addGuitar2" />
-        <item itemvalue="JUnit.InventoryRepositoryTest.addGuitar1" />
+        <item itemvalue="JUnit.InventoryRepositoryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706585058856</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="hw 3 part 1">
+      <option name="closed" value="true" />
+      <created>1707350776489</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707350776489</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -221,6 +247,7 @@
     <MESSAGE value="hw 2" />
     <MESSAGE value="hw 2 pom" />
     <MESSAGE value="hw 2 mavenyml" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw 2 mavenyml" />
+    <MESSAGE value="hw 3 part 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw 3 part 1" />
   </component>
 </project>

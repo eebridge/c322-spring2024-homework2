@@ -69,10 +69,13 @@ public class Guitar {
     }
 
     public String getBuilder(){
-        return builder.toString();
+        if (this.builder != null) {
+            return builder.toString();
+        }
+        else return null;
     }
 
-    public void setBuilder(String s){ this.builder = Builder.valueOf(s); }
+    public void setBuilder(String s){ this.builder = Builder.valueOf(s.toUpperCase()); }
 
     public String getModel(){
         return this.model;
@@ -81,20 +84,29 @@ public class Guitar {
     public void setModel(String s){ this.model = s; }
 
     public String getType(){
-        return type.toString();
+        if (this.type != null) {
+            return type.toString();
+        }
+        else return null;
     }
 
-    public void setType(String s){ this.type = Type.valueOf(s); }
+    public void setType(String s){ this.type = Type.valueOf(s.toUpperCase()); }
 
     public String getBackWood(){
-        return backWood.toString();
+        if (this.backWood != null) {
+            return backWood.toString();
+        }
+        else return null;
     }
 
-    public void setBackWood(String s){ this.backWood = Wood.valueOf(s); }
+    public void setBackWood(String s){ this.backWood = Wood.valueOf(s.toUpperCase()); }
 
     public String getTopWood(){
-        return topWood.toString();
+        if (this.topWood != null) {
+            return topWood.toString();
+        }
+        else return null;
     }
 
-    public void setTopWood(String s){ this.topWood = Wood.valueOf(s); }
+    public void setTopWood(String s){ this.topWood = Wood.valueOf(s.toUpperCase()); }
 }

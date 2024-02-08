@@ -16,11 +16,11 @@ class InventoryRepositoryTest {
         InventoryRepository inventoryRepository = new InventoryRepository();
         guitar.setSerialNumber("32145");
         guitar.setPrice(Float.parseFloat("1234"));
-        guitar.setBuilder("builder1");
+        guitar.setBuilder("gibson");
         guitar.setModel("model1");
-        guitar.setType("type1");
-        guitar.setBackWood("backWood1");
-        guitar.setTopWood("topWood1");
+        guitar.setType("electric");
+        guitar.setBackWood("maple");
+        guitar.setTopWood("cedar");
         assertTrue(inventoryRepository.addGuitar(guitar));
     }
 
@@ -30,11 +30,11 @@ class InventoryRepositoryTest {
         InventoryRepository inventoryRepository = new InventoryRepository();
         guitar.setSerialNumber(null);
         guitar.setPrice(Float.parseFloat("4321"));
-        guitar.setBuilder(null);
+        guitar.setBuilder("gibson");
         guitar.setModel(null);
-        guitar.setType(null);
-        guitar.setBackWood(null);
-        guitar.setTopWood(null);
+        guitar.setType("acoustic");
+        guitar.setBackWood("maple");
+        guitar.setTopWood("cedar");
         assertTrue(inventoryRepository.addGuitar(guitar));
     }
 
@@ -43,11 +43,11 @@ class InventoryRepositoryTest {
         Guitar guitar = new Guitar();
         guitar.setSerialNumber("12345");
         guitar.setPrice(Float.parseFloat("123.99"));
-        guitar.setBuilder("Fender");
+        guitar.setBuilder("prs");
         guitar.setModel("model1");
-        guitar.setType("type1");
-        guitar.setBackWood("Alder");
-        guitar.setTopWood("topWood1");
+        guitar.setType("acoustic");
+        guitar.setBackWood("alder");
+        guitar.setTopWood("cedar");
         InventoryRepository inventoryRepository = new InventoryRepository();
         Guitar expected = inventoryRepository.getGuitar("12345");
         assertTrue(guitar.getSerialNumber().equals(expected.getSerialNumber()) &&
@@ -64,17 +64,17 @@ class InventoryRepositoryTest {
         Guitar guitar = new Guitar();
         guitar.setSerialNumber("12345");
         guitar.setPrice(Float.parseFloat("123.99"));
-        guitar.setBuilder("Fender");
+        guitar.setBuilder("prs");
         guitar.setModel("model1");
-        guitar.setType("type1");
-        guitar.setBackWood("Alder");
-        guitar.setTopWood("topWood1");
+        guitar.setType("electric");
+        guitar.setBackWood("alder");
+        guitar.setTopWood("cedar");
         Guitar search = new Guitar();
-        search.setBuilder("Fender");
-        search.setBackWood("Alder");
+        search.setBuilder("prs");
+        search.setBackWood("alder");
         InventoryRepository inventoryRepository = new InventoryRepository();
         List<Guitar> expected = inventoryRepository.search(search);
-        assertTrue(expected.size() == 2);
+        assertTrue(expected.size() == 1);
 
     }
 }
