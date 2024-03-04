@@ -57,7 +57,7 @@ public class InventoryController {
         }
     }
 
-    @GetMapping
+    @GetMapping("/findAll")
     public List<Guitar> findAll() {
         try {
             return inventoryRepository.findAll();
