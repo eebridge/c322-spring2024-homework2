@@ -9,8 +9,8 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>demo</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>hw6</artifactId>
+	<version>0.0.1</version>
 	<name>c322-spring2024-homework2</name>
 	<description>c322 homework 2 by Ethan Bridges</description>
 	<properties>

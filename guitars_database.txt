@@ -1,3 +1,13 @@
 32145,1234.0,Gibson,model1,Electric,Maple,Cedar
 null,4321.0,Gibson,null,Acoustic,Maple,Cedar
 12345,123.99,Prs,model1,Acoustic,Alder,Cedar
+32145,1234.0,Gibson,model1,Electric,Maple,Cedar
+null,4321.0,Gibson,null,Acoustic,Maple,Cedar
+32145,1234.0,Gibson,model1,Electric,Maple,Cedar
+null,4321.0,Gibson,null,Acoustic,Maple,Cedar
+32145,1234.0,Gibson,model1,Electric,Maple,Cedar
+null,4321.0,Gibson,null,Acoustic,Maple,Cedar
+32145,1234.0,Gibson,model1,Electric,Maple,Cedar
+null,4321.0,Gibson,null,Acoustic,Maple,Cedar
+32145,1234.0,Gibson,model1,Electric,Maple,Cedar
+null,4321.0,Gibson,null,Acoustic,Maple,Cedar
