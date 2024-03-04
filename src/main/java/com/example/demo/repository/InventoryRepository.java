@@ -85,4 +85,23 @@ public class InventoryRepository {
         }
         return result;
     }
+
+    public List<Guitar> findAll() throws IOException {
+        Guitar guitar = new Guitar();
+        List<Guitar> result = new ArrayList<>();
+        Path path = Paths.get(DATABASE_NAME);
+        List<String> data = Files.readAllLines(path);
+        for (String line : data) {
+            String[] words = line.split(",");
+            guitar.setSerialNumber(words[0]);
+            guitar.setPrice(Float.parseFloat(words[1]));
+            guitar.setBuilder(words[2]);
+            guitar.setModel(words[3]);
+            guitar.setType(words[4]);
+            guitar.setBackWood(words[5]);
+            guitar.setTopWood(words[6]);
+            result.add(guitar);
+        }
+        return result;
+    }
 }

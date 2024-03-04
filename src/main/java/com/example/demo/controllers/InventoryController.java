@@ -56,4 +56,13 @@ public class InventoryController {
             return null;
         }
     }
+
+    @GetMapping
+    public List<Guitar> findAll() {
+        try {
+            return inventoryRepository.findAll();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
 }
